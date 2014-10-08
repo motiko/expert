@@ -7,8 +7,8 @@
 angular.module('Contact', []).factory('Contact', function (AngularForceObjectFactory) {
     //Describe the contact object
     var objDesc = {
-        type: 'Contact',
-        fields: ['FirstName', 'LastName', 'Title', 'Phone', 'Email', 'Id', 'Account.Name'],
+        type: 'CKSW_BASE__SHIFT__c',
+        fields: ['CKSW_BASE__Position__c', 'CKSW_BASE__Start__c', 'CKSW_BASE__Finish__c', 'CKSW_BASE__Location_Name__c',  'Id'],
         where: '',
         orderBy: 'LastName',
         limit: 20
